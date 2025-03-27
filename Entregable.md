@@ -43,24 +43,18 @@ Ejemplo si usan Python + Flask:
 
 ```arduino
 
-/inventario_app/
-├── app/
-│   ├── __init__.py
-│   ├── models.py
-│   ├── routes.py
-│   ├── auth.py
-│   ├── utils.py
-│   └── templates/
-│       └── *.html
-├── static/
-│   └── styles.css
-├── tests/
-│   └── test_crud.py
-│   └── test_auth.py
-├── logs/
+gestion_inventario/
+│
+├── main.py                     # Punto de entrada de la aplicación
+├── login.py                   # Funciones de login y autenticación
+├── inventario.py              # Funciones CRUD para inventario
+├── utils.py                   # Funciones auxiliares como logging
+├── logs/                      # Carpeta para guardar los archivos de log
 │   └── app.log
-├── requirements.txt
-└── run.py
+└── data/                      # Carpeta para los .txt (almacenamiento local)
+    ├── usuarios.txt
+    └── inventario.txt
+
 ```
 ### Flujo de Trabajo
 
