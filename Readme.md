@@ -1,6 +1,6 @@
 # 🗃️ Gestión de Inventario para Bodega
 
-Una aplicación sencilla y funcional para que pequeños emprendedores puedan llevar el control de su inventario. Permite crear, consultar, actualizar y eliminar productos, gestionar el stock, generar reportes y proteger el acceso mediante autenticación.
+Qué es y qué función tiene? Es una aplicación sencilla y funcional para que pequeños emprendedores puedan llevar el control de su inventario. Permite crear, consultar, actualizar y eliminar productos, gestionar el stock, generar reportes y proteger el acceso mediante autenticación.
 
 ## 📦 Tabla de Contenidos
 
@@ -20,15 +20,15 @@ Una aplicación sencilla y funcional para que pequeños emprendedores puedan lle
 
 - Python 3.10 o superior
 - Git
-- Entorno virtual (opcional, pero recomendado)
+- Entorno virtual (opcional, pero recomendable)
 
 ### Instrucciones
 
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/inventario-bodega.git
-cd inventario-bodega
+git clone https://github.com/tuusuario/gestion_inventario.git
+cd gestion_inventario
 
 ```
 
@@ -88,7 +88,7 @@ Al iniciar la aplicación podrás:
 - Categoría: Electrónica
 
 ## 🤝 Cómo Contribuir
-¡Gracias por tu interés en contribuir! Para hacerlo:
+Gracias por tu interés en contribuir! Para hacerlo:
 
 - Haz un fork del proyecto
 
@@ -116,8 +116,8 @@ Ver el archivo CHANGELOG.md para más detalles sobre lo que ha cambiado reciente
 Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
 
 ## 👥 Créditos
-Proyecto desarrollado por el equipo de [nombre de grupo/curso].
-Supervisado por [nombre del profesor o institución].
+Integrantes: Joaquín Aguilera, Marcelo Fernández.
+Profesor: Oscar Reyes.
 
 ## 🔗 Enlace al Repositorio
-👉 https://github.com/tuusuario/inventario-bodega
+👉 https://github.com/tuusuario/gestion_inventario
