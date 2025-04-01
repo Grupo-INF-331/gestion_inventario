@@ -10,24 +10,36 @@
 
 ## ✅ 1. Especificación del Requerimiento
 ### 1.1 Validación (¿Estamos construyendo lo que el usuario necesita?)
-- Se realizaron entrevistas al emprendedor (o suposiciones realistas si no hay acceso directo).
+Antes de iniciar la programación, se buscará especificar lo que desea el cliente mediante preguntas y supuestos, buscando minimizar el errror entre lo que espera el cliente y el producto que finalmente se le entregará, para ello, se realizan las siguientes aclaraciones y supuestos:
+- Se realizaron preguntas en Foro con el usuario (profesor).
+- 
+- Se definieron claramente los campos de cada producto: "nombre, descripción, cantidad disponible, precio unitario y categoría"
 
-- Se definieron claramente los campos de cada producto.
+- Se delimitó el alcance: se requiere una App sencilla que invluya el crud visible y operable solo mediante Linea de comandos.
 
-- Se delimitó el alcance: no es un sistema POS completo, sino una app sencilla de inventario.
+- El reporte debe ofrecer Información de Storks y productos disponibles solo bajo demanda.
 
 #### Supuestos:
 
-- La autenticación puede ser básica (login por username y password, sin roles).
+- La autenticación puede ser básica (login por username y password), existiendo solo un rol general.
 
-- El sistema será de escritorio o web local (no se requiere despliegue en la nube).
+- El sistema debe ser .
 
 - No se requiere integración con hardware (ej. lector de códigos).
 
-- La categoría es seleccionable desde un set predefinido.
+- El usuario puede agregar productos con categorias nuevas y éstas serán agregadas de manera automática.
+
+- El filtro debe funcionar con el nombre del producto, su categoría, o su SKU.
+
+- No es necesario una base de datos en la nube con datos clasificados, basta con archivos locales.
+
+- El reporte debe mostrar la cantidad de productos disponibles,nombre de agotados, y el  valor total.
+
+- Se debe poder actualizar cualquier variable de cada producto, preguntando cual desea configurarse especificamente.
 
 ### 1.2 Verificación (¿Estamos construyéndolo correctamente?)
-- Plan de pruebas dividido en ciclos (como se detalla más abajo).
+Para asegurar que se cumpla lo solicitado por el cliente, se realizará las siguientes verificaciones:
+- Plan de pruebas dividido en 2 ciclos (se describirán abajo).
 
 - Cada funcionalidad del CRUD será testeada con entradas válidas e inválidas.
 
@@ -35,47 +47,32 @@
 
 - Se validarán los reportes generados con datos de prueba.
 
----
+- Se probará el funcionamiento con usuario de prueba externo al desarrollo del programa.
 
+---
 ## 🧠 2. Organización del Proyecto
 ### Estructura del Proyecto
-Ejemplo si usan Python + Flask:
+El proyecto fué programado en diferentes archivos modularizando cada área del programa, esto fué trabajado con el paradigma de flujo Git Flow, siendo utilizadas las siguientes ramas:
+- main: rama principal donde se envia el código estable listo para producción.
+  
+- develop: rama base para integrar las funcionalidades nuevas que se programen.
 
-```arduino
-
-/inventario_app/
-├── app/
-│   ├── __init__.py
-│   ├── models.py
-│   ├── routes.py
-│   ├── auth.py
-│   ├── utils.py
-│   └── templates/
-│       └── *.html
-├── static/
-│   └── styles.css
-├── tests/
-│   └── test_crud.py
-│   └── test_auth.py
+- feature/*: ramas de cada funcionalidad.
+### Flujo de Trabajo
+- **Ramas Git**:
+/gestion_inventario/
+├── data/
+│   ├── inventario.txt
+│   └── usuarios.txt
 ├── logs/
 │   └── app.log
-├── requirements.txt
-└── run.py
-```
-### Flujo de Trabajo
-
-- **Ramas Git**:
-  - `main`: protegida, estable
-  - `dev`: integración
-  - `feature/*`: nuevas funcionalidades
-- **Slack**: Integrado con GitHub para visualizar commits, PRs, merges.
-- **Paradigma Git Flow**: Separación clara de desarrollo y producción.
-- **Configuraciones**:
-  - Protección de ramas
-  - Revisores requeridos para PR
-  - Uso de Issues y Projects si aplica
-
----
+├── eliminar.md
+├── Entregable.md
+├── inventario.py
+├── login.py
+├── main.py
+├── Readme.md
+├── utils.py
 
 ## 🖥️ 3. Codificación
 
