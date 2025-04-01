@@ -12,3 +12,14 @@
 27/03/2025 00:10:50 INFO: Inventario guardado exitosamente
 27/03/2025 00:10:50 INFO: Producto actualizado: ID 2, campo 5
 27/03/2025 00:26:08 INFO: Usuario 'marcelo' inició sesión
+27/03/2025 00:33:01 INFO: Usuario 'marcelo' inició sesión
+27/03/2025 00:34:13 ERROR: Error al cargar usuarios: not enough values to unpack (expected 2, got 1)
+27/03/2025 00:34:18 WARNING: Fallo de login para usuario 'marcelo'
+27/03/2025 00:34:24 ERROR: Error al cargar usuarios: not enough values to unpack (expected 2, got 1)
+27/03/2025 00:34:33 WARNING: Fallo de login para usuario 'admin'
+27/03/2025 00:38:35 INFO: Usuario 'marcelo' inició sesión
+27/03/2025 00:38:54 ERROR: Error al actualizar producto: could not convert string to float: 'asd'
+27/03/2025 00:48:05 WARNING: Fallo de login para usuario 'marcelo '
+27/03/2025 00:48:26 INFO: Usuario 'marcelo' inició sesión
+01/04/2025 11:02:01 INFO: Usuario 'marcelo' inició sesión
+01/04/2025 11:02:42 WARNING: Fallo de login para usuario 'marcelo'
