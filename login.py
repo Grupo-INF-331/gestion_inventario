@@ -15,14 +15,22 @@ def cargar_usuarios():
 
 def login():
     usuarios = cargar_usuarios()
-    print("=== LOGIN ===")
-    usuario = input("Usuario: ")
-    contraseña = input("Contraseña: ")
-    if usuario in usuarios and usuarios[usuario] == contraseña:
-        logger.info(f"Usuario '{usuario}' inició sesión")
-        print("\n✅ Acceso concedido.\n")
-        return True
-    else:
-        logger.warning(f"Fallo de login para usuario '{usuario}'")
-        print("\n❌ Usuario o contraseña incorrectos.\n")
-        return False
+    intentos = 3
+    while intentos > 0:
+        print("=== LOGIN ===")
+        usuario = input("Usuario: ")
+        contraseña = input("Contraseña: ")
+        if usuario in usuarios and usuarios[usuario] == contraseña:
+            logger.info(f"Usuario '{usuario}' inició sesión")
+            print("\n✅ Acceso concedido.\n")
+            return True
+        else:
+            intentos -= 1
+            logger.warning(f"Intento fallido de login. Usuario: '{usuario}', contraseña ingresada: '{contraseña}'")
+            print("\n❌ Usuario o contraseña incorrectos.")
+            if intentos > 0:
+                print(f"Intentos restantes: {intentos}\n")
+            else:
+                print("\n❌ Se agotaron los intentos de login. Cerrando sesión.")
+                logger.error(f"Login fallido: Se agotaron los intentos para el usuario '{usuario}'")
+    return False
