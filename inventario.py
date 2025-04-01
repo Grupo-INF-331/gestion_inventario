@@ -63,6 +63,7 @@ def agregar_producto(inventario):
 
 def consultar_productos(inventario):
     print("=== Productos en Inventario ===")
+    print("   ID   |    NOMBRE    |    CATEGORIA    |    STOCK    |    PRECIO    |    SKU    |")
     for p in inventario:
         print(f"{p['id']} | {p['nombre']} | {p['categoria']} | {p['stock']} | ${p['precio']} | SKU: {p['sku']}")
 
