@@ -2,9 +2,9 @@
 
 **Integrantes del equipo:** Joaquin Aguilera, Marcelo Fernandez
 
-**Fecha:** 26/03/2025
+**Fecha:** 06/04/2025
 
-**Enlace al repositorio GitHub (público):**
+**Enlace al repositorio GitHub (público):** https://github.com/Grupo-INF-331/gestion_inventario
 
 ---
 
