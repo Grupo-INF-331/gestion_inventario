@@ -122,20 +122,19 @@ Logging con logging de Python
 ## ⚠️ 5. Problemas Encontrados y Soluciones
 
 - ❌ Error en validación de cantidades negativas → ✅ Se agregó validación extra.
-- ❌ Conflictos al hacer merge de ramas → ✅ Uso de `git rebase` para resolver.
-- ❌ Slack no notificaba correctamente → ✅ Se reconfiguró integración desde GitHub Apps.
+- ❌ Error en login (se cerraba el programa si el login fallaba) → ✅ Se agregó un ciclo que pide ingresar credenciales hasta que sean válidas.
+- ❌ Error en validación de datos nulos → ✅ Se agregó validación extra.
 
 ---
 
 ## 📎 Extras
 
-- [ ] Pruebas documentadas en [app.greentest.ai](https://app.greentest.ai) (recomendado para puntos extra)
+- [ ] Pruebas documentadas en [app.greentest.ai](https://app.greentest.ai)
 - [ ] Capturas de:
 - Pull requests
 - Slack mostrando commits
 - Aplicación funcionando
 - Logs
-- [ ] Video corto mostrando el uso (opcional pero recomendable)
 
 ---
 
