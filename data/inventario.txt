@@ -1,3 +1,4 @@
 1,botellas,botella de agua 1 litro,deporte,10000.0,10,as124
 2,celular,celular,celular,10500.0,9,qwert
 3,reloj,xiaomi band 2,deporte,30100.0,10,asdf
+4,,,,1.0,2,asd1

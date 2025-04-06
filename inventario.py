@@ -39,12 +39,38 @@ def generar_id(inventario):
 def agregar_producto(inventario):
     try:
         print("=== Agregar Producto ===")
-        nombre = input("Nombre: ")
-        descripcion = input("Descripción: ")
-        categoria = input("Categoría: ")
-        precio = float(input("Precio unitario: "))
-        stock = int(input("Cantidad disponible: "))
-        sku = input("SKU (código único): ")
+
+        # Validar campos de texto
+        def pedir_texto(campo):
+            while True:
+                valor = input(f"{campo}: ").strip()
+                if valor:
+                    return valor
+                else:
+                    print(f"❌ El campo '{campo}' no puede estar vacío.")
+
+        nombre = pedir_texto("Nombre")
+        descripcion = pedir_texto("Descripción")
+        categoria = pedir_texto("Categoría")
+
+        # Validar precio
+        while True:
+            try:
+                precio = float(input("Precio unitario: "))
+                break
+            except ValueError:
+                print("❌ Precio inválido. Por favor, ingresá un número válido.")
+
+        # Validar stock
+        while True:
+            try:
+                stock = int(input("Cantidad disponible: "))
+                break
+            except ValueError:
+                print("❌ Cantidad inválida. Por favor, ingresá un número entero.")
+
+        sku = pedir_texto("SKU (código único)")
+
         nuevo_producto = {
             "id": generar_id(inventario),
             "nombre": nombre,
@@ -54,12 +80,16 @@ def agregar_producto(inventario):
             "stock": stock,
             "sku": sku
         }
+
         inventario.append(nuevo_producto)
         guardar_inventario(inventario)
         logger.info(f"Producto agregado: {nombre}")
         print("✅ Producto agregado.")
+        
     except Exception as e:
         logger.error(f"Error al agregar producto: {e}")
+
+
 
 def consultar_productos(inventario):
     print("=== Productos en Inventario ===")
