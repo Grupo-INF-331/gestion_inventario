@@ -116,6 +116,7 @@ Logging con logging de Python
 | T002    | Login con credenciales válidas   | Acceso permitido                 | Acceso permitido            | ✅            |                          |
 | T003    | Reporte con inventario vacío     | Total productos: 0 Valor total del inventario: $0.00 Productos agotados: Ninguno| Total productos: 0 Valor total del inventario: $0.00 Productos agotados: Ninguno | ✅      |                          |
 | T004    | Crear producto con precio inválido       | Rechaza producto                 | Rechaza producto            | ✅            | Validación funciona       |
+| T005    | Asignar precio negativo       | Pide re ingresar valor              | Pide reingresar valor           | ✅            | Control funciona   |
 
 ---
 
