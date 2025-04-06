@@ -103,18 +103,18 @@ Logging con logging de Python
 ### Estrategia
 
 - Pruebas individuales (Ciclo 1)
-- Pruebas cruzadas en equipo (Ciclo 2)
+- Pruebas cruzadas en equipo (Ciclo 2) - Merge del avance individual de cada integrante
 - Pruebas adicionales si es necesario (Ciclo 3)
-- Herramienta: `pytest` o pruebas manuales
+- Herramienta: pruebas manuales
 - Registro: Excel o app.greentest.ai
 
-### Formato sugerido de pruebas:
+### Pruebas:
 
 | Id_Test | Entrada                         | Resultado Esperado               | Resultado Obtenido         | Éxito/Fallo | Comentario              |
 |---------|----------------------------------|----------------------------------|-----------------------------|--------------|--------------------------|
 | T001    | Crear producto sin nombre        | Rechaza producto                 | Rechaza producto            | ✅            | Validación funciona       |
 | T002    | Login con credenciales válidas   | Acceso permitido                 | Acceso permitido            | ✅            |                          |
-| T003    | Reporte con inventario vacío     | Total = 0, Productos agotados = 0| Total = 0, Productos agotados = 0 | ✅      |                          |
+| T003    | Reporte con inventario vacío     | Total productos: 0 Valor total del inventario: $0.00 Productos agotados: Ninguno| Total productos: 0 Valor total del inventario: $0.00 Productos agotados: Ninguno | ✅      |                          |
 
 ---
 
