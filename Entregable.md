@@ -10,21 +10,22 @@
 
 ## ✅ 1. Especificación del Requerimiento
 ### 1.1 Validación (¿Estamos construyendo lo que el usuario necesita?)
-- Se realizaron entrevistas al emprendedor (o suposiciones realistas si no hay acceso directo).
 
-- Se definieron claramente los campos de cada producto.
+- Definir de manera más clara el control de inventario dentro de la aplicación
 
-- Se delimitó el alcance: no es un sistema POS completo, sino una app sencilla de inventario.
+- Se delimitó el alcance: no es un sistema POS completo, sino un programa sencillo de inventario. Las funcionalidades necesarias para el usuario existen y funcionan, por lo que satisface las necesidades del cliente.
 
 #### Supuestos:
 
 - La autenticación puede ser básica (login por username y password, sin roles).
 
-- El sistema será de escritorio o web local (no se requiere despliegue en la nube).
+- No se requiere despliegue en la nube
+
+- El sistema será de escritorio (sin visual y por medio de una línea de comandos)
 
 - No se requiere integración con hardware (ej. lector de códigos).
 
-- La categoría es seleccionable desde un set predefinido.
+- La categoría es seleccionable desde un set predefinido (el usuario debe elegir indicando el número de la opción).
 
 ### 1.2 Verificación (¿Estamos construyéndolo correctamente?)
 - Plan de pruebas dividido en ciclos (como se detalla más abajo).
@@ -33,13 +34,13 @@
 
 - Se probará autenticación con credenciales correctas e incorrectas.
 
-- Se validarán los reportes generados con datos de prueba.
+- Se validarán los log generados con datos de prueba que se almacenarán en un archivo llamado app.log.
 
 ---
 
 ## 🧠 2. Organización del Proyecto
 ### Estructura del Proyecto
-Ejemplo si usan Python + Flask:
+Mediante el uso de Python + Flask:
 
 ```arduino
 
@@ -64,16 +65,12 @@ gestion_inventario/
   - `feature/*`: nuevas funcionalidades
 - **Slack**: Integrado con GitHub para visualizar commits, PRs, merges.
 - **Paradigma Git Flow**: Separación clara de desarrollo y producción.
-- **Configuraciones**:
-  - Protección de ramas
-  - Revisores requeridos para PR
-  - Uso de Issues y Projects si aplica
 
 ---
 
 ## 🖥️ 3. Codificación
 
-### Lenguaje: Python (recomendado)
+### Lenguaje: Python
 
 ### Funcionalidades:
 
