@@ -112,9 +112,10 @@ Logging con logging de Python
 
 | Id_Test | Entrada                         | Resultado Esperado               | Resultado Obtenido         | Éxito/Fallo | Comentario              |
 |---------|----------------------------------|----------------------------------|-----------------------------|--------------|--------------------------|
-| T001    | Crear producto sin nombre        | Rechaza producto                 | Rechaza producto            | ✅            | Validación funciona       |
+| T001    | Crear producto con nombre vacío        | Rechaza producto                 | Rechaza producto            | ✅            | Validación funciona       |
 | T002    | Login con credenciales válidas   | Acceso permitido                 | Acceso permitido            | ✅            |                          |
 | T003    | Reporte con inventario vacío     | Total productos: 0 Valor total del inventario: $0.00 Productos agotados: Ninguno| Total productos: 0 Valor total del inventario: $0.00 Productos agotados: Ninguno | ✅      |                          |
+| T004    | Crear producto con precio inválido       | Rechaza producto                 | Rechaza producto            | ✅            | Validación funciona       |
 
 ---
 
