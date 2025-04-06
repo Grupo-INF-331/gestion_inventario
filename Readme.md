@@ -77,15 +77,12 @@ Al iniciar la aplicación podrás:
 - - Productos agotados
 
 ### 📝 Ejemplo de producto
-- Nombre: Audífonos Bluetooth
-
-- Descripción: Audífonos inalámbricos con cancelación de ruido
-
-- Cantidad: 15
-
-- Precio unitario: $25.00
-
-- Categoría: Electrónica
+- ID: 1
+- Nombre: botellas
+- Categoría: deporte
+- Stock: 10
+- Precio: $10000.0
+- SKU: as124
 
 ## 🤝 Cómo Contribuir
 Gracias por tu interés en contribuir! Para hacerlo:
