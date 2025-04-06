@@ -27,7 +27,7 @@ Qué es y qué función tiene? Es una aplicación sencilla y funcional para que 
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/gestion_inventario.git
+git clone https://github.com/Grupo-INF-331/gestion_inventario.git
 cd gestion_inventario
 
 ```
@@ -117,4 +117,4 @@ Integrantes: Joaquín Aguilera, Marcelo Fernández.
 Profesor: Oscar Reyes.
 
 ## 🔗 Enlace al Repositorio
-👉 https://github.com/tuusuario/gestion_inventario
+👉 https://github.com/Grupo-INF-331/gestion_inventario.git
