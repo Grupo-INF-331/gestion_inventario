@@ -53,21 +53,27 @@ def agregar_producto(inventario):
         descripcion = pedir_texto("Descripción")
         categoria = pedir_texto("Categoría")
 
-        # Validar precio
+        # Validar precio (float y no negativo)
         while True:
             try:
                 precio = float(input("Precio unitario: "))
-                break
+                if precio < 0:
+                    print("❌ El precio no puede ser negativo.")
+                else:
+                    break
             except ValueError:
-                print("❌ Precio inválido. Por favor, ingresá un número válido.")
+                print("❌ Precio inválido. Por favor, ingresa un número válido.")
 
-        # Validar stock
+        # Validar stock (entero y no negativo)
         while True:
             try:
                 stock = int(input("Cantidad disponible: "))
-                break
+                if stock < 0:
+                    print("❌ La cantidad no puede ser negativa.")
+                else:
+                    break
             except ValueError:
-                print("❌ Cantidad inválida. Por favor, ingresá un número entero.")
+                print("❌ Cantidad inválida. Por favor, ingresa un número entero.")
 
         sku = pedir_texto("SKU (código único)")
 
@@ -107,18 +113,51 @@ def actualizar_producto(inventario):
                 print("1. Nombre\n2. Descripción\n3. Categoría\n4. Precio\n5. Stock\n6. SKU")
                 opcion = input("Elige una opción (1-6): ")
 
+                # Función para validar texto
+                def pedir_texto(campo):
+                    while True:
+                        valor = input(f"Nuevo {campo}: ").strip()
+                        if valor:
+                            return valor
+                        else:
+                            print(f"❌ El campo '{campo}' no puede estar vacío.")
+
+                # Función para validar float no negativo
+                def pedir_precio():
+                    while True:
+                        try:
+                            precio = float(input("Nuevo precio: "))
+                            if precio < 0:
+                                print("❌ El precio no puede ser negativo.")
+                            else:
+                                return precio
+                        except ValueError:
+                            print("❌ Valor inválido. Ingresa un número válido.")
+
+                # Función para validar int no negativo
+                def pedir_stock():
+                    while True:
+                        try:
+                            stock = int(input("Nuevo stock: "))
+                            if stock < 0:
+                                print("❌ El stock no puede ser negativo.")
+                            else:
+                                return stock
+                        except ValueError:
+                            print("❌ Valor inválido. Ingresa un número entero.")
+
                 if opcion == "1":
-                    p["nombre"] = input("Nuevo nombre: ")
+                    p["nombre"] = pedir_texto("nombre")
                 elif opcion == "2":
-                    p["descripcion"] = input("Nueva descripción: ")
+                    p["descripcion"] = pedir_texto("descripción")
                 elif opcion == "3":
-                    p["categoria"] = input("Nueva categoría: ")
+                    p["categoria"] = pedir_texto("categoría")
                 elif opcion == "4":
-                    p["precio"] = float(input("Nuevo precio: "))
+                    p["precio"] = pedir_precio()
                 elif opcion == "5":
-                    p["stock"] = int(input("Nuevo stock: "))
+                    p["stock"] = pedir_stock()
                 elif opcion == "6":
-                    p["sku"] = input("Nuevo SKU: ")
+                    p["sku"] = pedir_texto("SKU")
                 else:
                     print("❌ Opción inválida.")
                     return
@@ -130,6 +169,7 @@ def actualizar_producto(inventario):
         print("❌ Producto no encontrado.")
     except Exception as e:
         logger.error(f"Error al actualizar producto: {e}")
+
 
 def eliminar_producto(inventario):
     try:

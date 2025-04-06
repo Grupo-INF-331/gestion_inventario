@@ -29,3 +29,19 @@
 06/04/2025 12:29:27 INFO: Usuario 'joaco' inició sesión
 06/04/2025 12:29:40 INFO: Inventario guardado exitosamente
 06/04/2025 12:29:40 INFO: Producto agregado: 
+06/04/2025 13:30:46 INFO: Usuario 'joaco' inició sesión
+06/04/2025 15:09:41 INFO: Inventario guardado exitosamente
+06/04/2025 15:09:41 INFO: Producto agregado: 1
+06/04/2025 15:46:25 INFO: Inventario guardado exitosamente
+06/04/2025 15:46:25 INFO: Producto actualizado: ID 1, campo 5
+06/04/2025 15:59:55 INFO: Inventario guardado exitosamente
+06/04/2025 15:59:55 INFO: Producto actualizado: ID 1, campo 5
+06/04/2025 16:03:19 INFO: Usuario 'joaco' inició sesión
+06/04/2025 16:03:37 INFO: Inventario guardado exitosamente
+06/04/2025 16:03:37 INFO: Producto actualizado: ID 1, campo 5
+06/04/2025 16:04:57 INFO: Inventario guardado exitosamente
+06/04/2025 16:04:57 INFO: Producto eliminado: ID 4
+06/04/2025 16:05:02 INFO: Se generó un reporte de inventario
+06/04/2025 16:05:33 INFO: Inventario guardado exitosamente
+06/04/2025 16:05:33 INFO: Producto agregado: avion
+06/04/2025 16:05:34 INFO: Se generó un reporte de inventario
