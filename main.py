@@ -15,8 +15,13 @@ def mostrar_menu():
 """)
 
 def main():
-    if not login():
-        return
+    while True:
+        if not login():
+            print("Login fallido, intente de nuevo")
+            continue
+        else:
+            print("Login exitoso")
+            break
     inventario = cargar_inventario()
     while True:
         mostrar_menu()
