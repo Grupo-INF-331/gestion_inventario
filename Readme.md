@@ -7,8 +7,6 @@ Qué es y qué función tiene? Es una aplicación sencilla y funcional para que 
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Registro de Cambios](#registro-de-cambios)
-- [Licencia](#licencia)
-- [Créditos](#créditos)
 - [Enlace al Repositorio](#enlace-al-repositorio)
 
 ---
