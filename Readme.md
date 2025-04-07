@@ -6,7 +6,6 @@ Qué es y qué función tiene? Es una aplicación sencilla y funcional para que 
 
 - [Instalación](#instalación)
 - [Uso](#uso)
-- [Cómo Contribuir](#cómo-contribuir)
 - [Registro de Cambios](#registro-de-cambios)
 - [Licencia](#licencia)
 - [Créditos](#créditos)
@@ -39,19 +38,11 @@ python -m venv env
 source env/bin/activate  # En Windows: env\Scripts\activate
 ```
 
-3. Instala las dependencias:
+3. Corre la aplicación:
 
 ```bash
 
-pip install -r requirements.txt
-
-```
-
-4. Corre la aplicación:
-
-```bash
-
-python run.py
+python main.py
 
 ```
 
@@ -81,21 +72,9 @@ Al iniciar la aplicación podrás:
 - Nombre: botellas
 - Categoría: deporte
 - Stock: 10
-- Precio: $10000.0
+- Precio: $10000
 - SKU: as124
 
-## 🤝 Cómo Contribuir
-Gracias por tu interés en contribuir! Para hacerlo:
-
-- Haz un fork del proyecto
-
-- Crea tu rama de trabajo (git checkout -b feature/nueva-funcionalidad)
-
-- Haz commit de tus cambios (git commit -m 'Agrega nueva funcionalidad')
-
-- Haz push a tu rama (git push origin feature/nueva-funcionalidad)
-
-- Abre un Pull Request
 
 ### Reglas de colaboración
 - Usa buenas prácticas de programación
@@ -107,14 +86,7 @@ Gracias por tu interés en contribuir! Para hacerlo:
 - No push directo a main (protegida)
 
 ## 📋 Registro de Cambios
-Ver el archivo CHANGELOG.md para más detalles sobre lo que ha cambiado recientemente.
-
-## 📄 Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
-
-## 👥 Créditos
-Integrantes: Joaquín Aguilera, Marcelo Fernández.
-Profesor: Oscar Reyes.
+Ver el archivo app.log para más detalles sobre lo que ha cambiado recientemente.
 
 ## 🔗 Enlace al Repositorio
 👉 https://github.com/Grupo-INF-331/gestion_inventario.git
