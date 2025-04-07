@@ -27,7 +27,7 @@ Qué es y qué función tiene? Es una aplicación sencilla y funcional para que 
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/gestion_inventario.git
+git clone https://github.com/tu_usuario/gestion_inventario.git
 cd gestion_inventario
 
 ```
@@ -39,13 +39,6 @@ python -m venv env
 source env/bin/activate  # En Windows: env\Scripts\activate
 ```
 
-3. Instala las dependencias:
-
-```bash
-
-pip install -r requirements.txt
-
-```
 
 4. Corre la aplicación:
 
@@ -110,10 +103,10 @@ Gracias por tu interés en contribuir! Para hacerlo:
 - No push directo a main (protegida)
 
 ## 📋 Registro de Cambios
-Ver el archivo CHANGELOG.md para más detalles sobre lo que ha cambiado recientemente.
+Ver el archivo app.log para más detalles sobre lo que ha cambiado recientemente.
 
 ## 📄 Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
+Este proyecto está bajo la Licencia MIT 
 
 ## 👥 Créditos
 Integrantes: Joaquín Aguilera, Marcelo Fernández.
