@@ -6,7 +6,10 @@ Qué es y qué función tiene? Es una aplicación sencilla y funcional para que 
 
 - [Instalación](#instalación)
 - [Uso](#uso)
+- [Cómo Contribuir](#cómo-contribuir)
 - [Registro de Cambios](#registro-de-cambios)
+- [Licencia](#licencia)
+- [Créditos](#créditos)
 - [Enlace al Repositorio](#enlace-al-repositorio)
 
 ---
@@ -24,7 +27,7 @@ Qué es y qué función tiene? Es una aplicación sencilla y funcional para que 
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/Grupo-INF-331/gestion_inventario.git
+git clone https://github.com/tu_usuario/gestion_inventario.git
 cd gestion_inventario
 
 ```
@@ -36,11 +39,12 @@ python -m venv env
 source env/bin/activate  # En Windows: env\Scripts\activate
 ```
 
-3. Corre la aplicación:
+
+4. Corre la aplicación:
 
 ```bash
 
-python main.py
+python run.py
 
 ```
 
@@ -66,13 +70,28 @@ Al iniciar la aplicación podrás:
 - - Productos agotados
 
 ### 📝 Ejemplo de producto
-- ID: 1
-- Nombre: botellas
-- Categoría: deporte
-- Stock: 10
-- Precio: $10000
-- SKU: as124
+- Nombre: Audífonos Bluetooth
 
+- Descripción: Audífonos inalámbricos con cancelación de ruido
+
+- Cantidad: 15
+
+- Precio unitario: $25.00
+
+- Categoría: Electrónica
+
+## 🤝 Cómo Contribuir
+Gracias por tu interés en contribuir! Para hacerlo:
+
+- Haz un fork del proyecto
+
+- Crea tu rama de trabajo (git checkout -b feature/nueva-funcionalidad)
+
+- Haz commit de tus cambios (git commit -m 'Agrega nueva funcionalidad')
+
+- Haz push a tu rama (git push origin feature/nueva-funcionalidad)
+
+- Abre un Pull Request
 
 ### Reglas de colaboración
 - Usa buenas prácticas de programación
@@ -86,5 +105,12 @@ Al iniciar la aplicación podrás:
 ## 📋 Registro de Cambios
 Ver el archivo app.log para más detalles sobre lo que ha cambiado recientemente.
 
+## 📄 Licencia
+Este proyecto está bajo la Licencia MIT 
+
+## 👥 Créditos
+Integrantes: Joaquín Aguilera, Marcelo Fernández.
+Profesor: Oscar Reyes.
+
 ## 🔗 Enlace al Repositorio
-👉 https://github.com/Grupo-INF-331/gestion_inventario.git
+👉 https://github.com/tuusuario/gestion_inventario
