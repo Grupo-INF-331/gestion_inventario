@@ -133,9 +133,14 @@ Logging con logging de Python
 - [ ] Pruebas documentadas en [app.greentest.ai](https://app.greentest.ai)
 - [ ] Capturas de:
 - Pull requests
+![Pull requests](img_entregable/commits.jpeg)
 - Slack mostrando commits
+  
+![Commits](img_entregable/slack.jpeg)
 - Aplicación funcionando
+![APP](img_entregable/commits.jpeg)
 - Logs
+![logs](img_entregable/logs.png)
 
 ---
 
