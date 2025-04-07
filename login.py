@@ -28,9 +28,4 @@ def login():
             intentos -= 1
             logger.warning(f"Intento fallido de login. Usuario: '{usuario}', contraseña ingresada: '{contraseña}'")
             print("\n❌ Usuario o contraseña incorrectos.")
-            if intentos > 0:
-                print(f"Intentos restantes: {intentos}\n")
-            else:
-                print("\n❌ Se agotaron los intentos de login. Cerrando sesión.")
-                logger.error(f"Login fallido: Se agotaron los intentos para el usuario '{usuario}'")
     return False

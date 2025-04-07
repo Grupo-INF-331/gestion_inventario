@@ -45,3 +45,11 @@
 06/04/2025 16:05:33 INFO: Inventario guardado exitosamente
 06/04/2025 16:05:33 INFO: Producto agregado: avion
 06/04/2025 16:05:34 INFO: Se generó un reporte de inventario
+06/04/2025 23:39:28 INFO: Usuario 'marcelo' inició sesión
+06/04/2025 23:40:14 WARNING: Intento fallido de login. Usuario: 'marcelo', contraseña ingresada: '12'
+06/04/2025 23:40:20 WARNING: Intento fallido de login. Usuario: 'marcelo', contraseña ingresada: '12345'
+06/04/2025 23:40:27 WARNING: Intento fallido de login. Usuario: 'marcelo', contraseña ingresada: '12345'
+06/04/2025 23:40:27 ERROR: Login fallido: Se agotaron los intentos para el usuario 'marcelo'
+06/04/2025 23:42:34 WARNING: Intento fallido de login. Usuario: 'mas', contraseña ingresada: '23'
+06/04/2025 23:42:41 WARNING: Intento fallido de login. Usuario: 'masadj', contraseña ingresada: '213'
+06/04/2025 23:42:43 WARNING: Intento fallido de login. Usuario: '413', contraseña ingresada: 'sad'
