@@ -1,0 +1,55 @@
+27/03/2025 00:02:54 INFO: Usuario 'marcelo' inició sesión
+27/03/2025 00:03:37 INFO: Inventario guardado exitosamente
+27/03/2025 00:03:37 INFO: Producto agregado: botellas
+27/03/2025 00:04:45 INFO: Inventario guardado exitosamente
+27/03/2025 00:04:45 INFO: Producto agregado: celular
+27/03/2025 00:05:21 INFO: Se generó un reporte de inventario
+27/03/2025 00:06:16 INFO: Inventario guardado exitosamente
+27/03/2025 00:06:16 INFO: Producto actualizado: ID 2
+27/03/2025 00:09:39 INFO: Usuario 'marcelo' inició sesión
+27/03/2025 00:10:25 INFO: Inventario guardado exitosamente
+27/03/2025 00:10:25 INFO: Producto agregado: reloj
+27/03/2025 00:10:50 INFO: Inventario guardado exitosamente
+27/03/2025 00:10:50 INFO: Producto actualizado: ID 2, campo 5
+27/03/2025 00:26:08 INFO: Usuario 'marcelo' inició sesión
+27/03/2025 00:33:01 INFO: Usuario 'marcelo' inició sesión
+27/03/2025 00:34:13 ERROR: Error al cargar usuarios: not enough values to unpack (expected 2, got 1)
+27/03/2025 00:34:18 WARNING: Fallo de login para usuario 'marcelo'
+27/03/2025 00:34:24 ERROR: Error al cargar usuarios: not enough values to unpack (expected 2, got 1)
+27/03/2025 00:34:33 WARNING: Fallo de login para usuario 'admin'
+27/03/2025 00:38:35 INFO: Usuario 'marcelo' inició sesión
+27/03/2025 00:38:54 ERROR: Error al actualizar producto: could not convert string to float: 'asd'
+27/03/2025 00:48:05 WARNING: Fallo de login para usuario 'marcelo '
+27/03/2025 00:48:26 INFO: Usuario 'marcelo' inició sesión
+01/04/2025 11:02:01 INFO: Usuario 'marcelo' inició sesión
+01/04/2025 11:02:42 WARNING: Fallo de login para usuario 'marcelo'
+01/04/2025 11:26:43 WARNING: Intento fallido de login. Usuario: 'marcelo', contraseña ingresada: '123'
+01/04/2025 11:26:50 WARNING: Intento fallido de login. Usuario: 'marcelo', contraseña ingresada: '123'
+01/04/2025 11:26:57 INFO: Usuario 'marcelo' inició sesión
+06/04/2025 12:29:27 INFO: Usuario 'joaco' inició sesión
+06/04/2025 12:29:40 INFO: Inventario guardado exitosamente
+06/04/2025 12:29:40 INFO: Producto agregado: 
+06/04/2025 13:30:46 INFO: Usuario 'joaco' inició sesión
+06/04/2025 15:09:41 INFO: Inventario guardado exitosamente
+06/04/2025 15:09:41 INFO: Producto agregado: 1
+06/04/2025 15:46:25 INFO: Inventario guardado exitosamente
+06/04/2025 15:46:25 INFO: Producto actualizado: ID 1, campo 5
+06/04/2025 15:59:55 INFO: Inventario guardado exitosamente
+06/04/2025 15:59:55 INFO: Producto actualizado: ID 1, campo 5
+06/04/2025 16:03:19 INFO: Usuario 'joaco' inició sesión
+06/04/2025 16:03:37 INFO: Inventario guardado exitosamente
+06/04/2025 16:03:37 INFO: Producto actualizado: ID 1, campo 5
+06/04/2025 16:04:57 INFO: Inventario guardado exitosamente
+06/04/2025 16:04:57 INFO: Producto eliminado: ID 4
+06/04/2025 16:05:02 INFO: Se generó un reporte de inventario
+06/04/2025 16:05:33 INFO: Inventario guardado exitosamente
+06/04/2025 16:05:33 INFO: Producto agregado: avion
+06/04/2025 16:05:34 INFO: Se generó un reporte de inventario
+06/04/2025 23:39:28 INFO: Usuario 'marcelo' inició sesión
+06/04/2025 23:40:14 WARNING: Intento fallido de login. Usuario: 'marcelo', contraseña ingresada: '12'
+06/04/2025 23:40:20 WARNING: Intento fallido de login. Usuario: 'marcelo', contraseña ingresada: '12345'
+06/04/2025 23:40:27 WARNING: Intento fallido de login. Usuario: 'marcelo', contraseña ingresada: '12345'
+06/04/2025 23:40:27 ERROR: Login fallido: Se agotaron los intentos para el usuario 'marcelo'
+06/04/2025 23:42:34 WARNING: Intento fallido de login. Usuario: 'mas', contraseña ingresada: '23'
+06/04/2025 23:42:41 WARNING: Intento fallido de login. Usuario: 'masadj', contraseña ingresada: '213'
+06/04/2025 23:42:43 WARNING: Intento fallido de login. Usuario: '413', contraseña ingresada: 'sad'
