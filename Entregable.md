@@ -118,7 +118,7 @@ Logging con logging de Python
 | T004    | Crear producto con precio inválido       | Rechaza producto                 | Rechaza producto            | ✅            | Validación funciona       |
 | T005    | Asignar precio negativo       | Pide re ingresar valor              | Pide reingresar valor           | ✅            | Control funciona   |
 
-[Entorno en greentest.ai](img_entregable/image1.png)
+![Entorno en greentest.ai](img_entregable/image1.png)
 #### Sobre la experiencia de usuario usando greentest.ai:
 - Fue díficil entender las funcionalidades y el uso que se le debe de dar al programa, como opinión personal de usuario inexperto, falta una guía o un tutorial de como usar el software, aunque después de 1 hora explorando las opciones el entorno se volvió mas amigable y se entiende que es lo que hace el software, como equipo no tuvimos la certeza de lo que realmente hacía o funcionaban los entornos de testeo, pensando en un comienzo que consistía en subir un proyecto a la web y ejecutarlo dandole diferentes entradas. Las opciones son bastante sencillas, pero la interacción con algunas opciones, como por ejemplo al agregar una sexta prueba dice que la prueba 6 fue creada localmente, pero no se muestra en el dashboard junto a las demás, haciendo que se vuelva confuso el como acceder a dicha prueba nueva. 
 
